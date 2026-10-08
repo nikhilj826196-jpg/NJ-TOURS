@@ -1,0 +1,1124 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "tourPackages": "Tour Packages",
+    "vehicles": "Vehicles",
+    "gallery": "Gallery",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "getQuote": "Get Quote",
+    "support": "24×7 Support",
+    "call": "Call Us",
+    "overviewDashboard": "Overview Dashboard",
+    "bookingsMgmt": "Bookings Management",
+    "fleetVehicles": "Fleet & Vehicles",
+    "driversFleet": "Drivers Fleet",
+    "registeredUsers": "Registered Users",
+    "reportsRevenue": "Reports & Revenue",
+    "systemSettings": "System Settings",
+    "dashboard": "Dashboard",
+    "myBookings": "My Bookings",
+    "profile": "My Profile",
+    "payments": "Payments",
+    "customer": "Customer",
+    "customerMenu": "Customer Menu",
+    "needTripHelp": "Need Trip Help?",
+    "callDesk": "Call our 24x7 desk at +91 98765 43210",
+    "driverDashboard": "Driver Dashboard",
+    "assignedTrips": "Assigned Trips",
+    "earningsPayouts": "Earnings & Payouts",
+    "driverProfile": "Driver Profile"
+  },
+  "hero": {
+    "headline1": "Your Journey,",
+    "headline2": "Our Responsibility.",
+    "subtitle": "Experience Safe, Comfortable & Premium Travel Across India. Book Cars, Buses, Tempo Travellers and Holiday Packages at the Best Prices.",
+    "rating": "⭐⭐⭐⭐⭐ 4.9 Rating | 50,000+ Travellers",
+    "safeTravel": "Safe & Secure Travel",
+    "support247": "24×7 Customer Support",
+    "trusted": "Trusted by Thousands",
+    "bookNow": "Book Now",
+    "explorePackages": "Explore Packages",
+    "popularRoutes": "Popular Routes",
+    "puneMumbaiFare": "Pune ⇌ Mumbai Cab from ₹2,499",
+    "tollFree": "Toll Free Hotline",
+    "verifiedCoach": "GPS Tracked Fleet",
+    "happyCustomers": "Happy Travelers",
+    "luxuryVehicles": "Luxury Vehicles",
+    "citiesCovered": "Cities Covered"
+  },
+  "booking": {
+    "outstationRound": "Outstation Round Trip",
+    "oneWay": "One Way",
+    "localHourly": "Local (8 Hours / 80 KM)",
+    "airport": "Airport Transfer",
+    "pickup": "Pickup Location",
+    "destination": "Destination",
+    "journeyDate": "Journey Date",
+    "returnDate": "Return Date",
+    "pickupTime": "Pickup Time",
+    "vehicleCategory": "Vehicle Category",
+    "passengers": "Passengers",
+    "promoCode": "Promo Code (Optional)",
+    "searchVehicles": "Search Vehicles",
+    "searching": "Searching Vehicles...",
+    "approxFare": "Approximate Fare",
+    "tollIncluded": "Toll Taxes Included",
+    "driverIncluded": "Driver Allowance Included",
+    "estTime": "Est. Time",
+    "recommended": "Recommended",
+    "instantConfirmation": "Instant Confirmation",
+    "noHiddenCharges": "No Hidden Charges",
+    "secureBooking": "Secure Booking",
+    "bannerText": "FLAT 15% OFF ON YOUR FIRST OUTSTATION / BUS BOOKING!",
+    "coupon": "Use Coupon: NJ15",
+    "step1": "Search",
+    "step2": "Confirm",
+    "step3": "Pay",
+    "step4": "Travel",
+    "gps": "Use GPS Location",
+    "pickupPlaceholder": "Enter pickup location",
+    "destinationPlaceholder": "Enter destination city",
+    "promoPlaceholder": "Enter promo code",
+    "processTitle": "Simple 4-Step Booking Process",
+    "processSubtitle": "Book your trip in just four easy steps.",
+    "calculateFare": "Calculate Fare & Book",
+    "steps": {
+      "step1": {
+        "title": "Search Vehicle",
+        "desc": "Choose pickup and destination."
+      },
+      "step2": {
+        "title": "Confirm Booking",
+        "desc": "Select vehicle & travel details."
+      },
+      "step3": {
+        "title": "Secure Payment",
+        "desc": "Pay online with instant confirmation."
+      },
+      "step4": {
+        "title": "Enjoy Journey",
+        "desc": "Have a safe & comfortable trip."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Reliable Transport Solutions for Every Need",
+    "carRental": "Car Rental",
+    "busRental": "Bus Rental",
+    "tempoTraveller": "Tempo Traveller",
+    "airportPickup": "Airport Pickup",
+    "corporateTransport": "Corporate Transport",
+    "holidayPackages": "Holiday Packages",
+    "weddingTransport": "Wedding Transport",
+    "schoolTrips": "School Trips",
+    "instantFareEstimator": "Instant Fare Estimator",
+    "calculateNow": "Calculate Now",
+    "items": {
+      "carRental": {
+        "title": "Car Rental",
+        "description": "Premium Sedans, Hatchbacks & Luxury SUVs for local and outstation trips with courteous drivers.",
+        "features": [
+          "Zero Hidden Toll Charges",
+          "Clean & Sanitized Fleet",
+          "Flexible Hourly / Outstation Packages"
+        ],
+        "badge": "Popular"
+      },
+      "busRental": {
+        "title": "Bus Rental",
+        "description": "Luxury 20 to 56 Seater AC/Non-AC Volvo & BharatBenz Coaches for grand tours & corporate events.",
+        "features": [
+          "Air Suspension Comfort",
+          "Reclining Pushback Seats",
+          "Surround Sound & LED Screens"
+        ],
+        "badge": "Group Travel"
+      },
+      "tempoTraveller": {
+        "title": "Tempo Traveller",
+        "description": "12, 17, 20 & 26 Seater Luxury Maharaja Tempo Travellers ideal for family holidays & pilgrim trips.",
+        "features": [
+          "Individual AC Vents",
+          "Plush Leather Recliners",
+          "Luggage Roof Carrier"
+        ],
+        "badge": "Best Seller"
+      },
+      "airportPickup": {
+        "title": "Airport Pickup",
+        "description": "Punctual, stress-free transfers to & from major domestic and international airports in India.",
+        "features": [
+          "Live Flight Status Tracking",
+          "Meet & Greet Service",
+          "60 Mins Free Waiting Time"
+        ],
+        "badge": "24x7 Express"
+      },
+      "corporateTransport": {
+        "title": "Corporate Transport",
+        "description": "Dedicated executive mobility solutions, monthly employee shuttle contracts, and VIP delegation cabs.",
+        "features": [
+          "Dedicated Account Manager",
+          "Monthly Automated Billing",
+          "GPS Real-time Tracking"
+        ],
+        "badge": "B2B Solutions"
+      },
+      "holidayPackages": {
+        "title": "Holiday Packages",
+        "description": "Handcrafted tour packages across India's top tourist destinations with hotel, cab & guide inclusions.",
+        "features": [
+          "Customized Itineraries",
+          "Verified 3★ to 5★ Hotels",
+          "24x7 On-Trip Assistance"
+        ],
+        "badge": "All Inclusive"
+      },
+      "weddingTransport": {
+        "title": "Wedding Transport",
+        "description": "Luxury wedding convoy fleet management for guests, bride-groom cars, and venue transfers.",
+        "features": [
+          "Decorated Vintage & Luxury Cars",
+          "Coordinated Fleet Managers",
+          "Uniformed Professional Chauffeurs"
+        ],
+        "badge": "Luxury VIP"
+      },
+      "schoolTrips": {
+        "title": "School Trips",
+        "description": "Safe, speed-governed, GPS-monitored buses for educational excursions and institutional tours.",
+        "features": [
+          "Speed Governor Enabled",
+          "CCTV & First Aid Kits",
+          "Double Verified Drivers"
+        ],
+        "badge": "Safe Certified"
+      }
+    },
+    "comprehensiveSolutions": "Comprehensive Solutions",
+    "estimatorDesc": "Real-time route & category estimates",
+    "approx": "Approx.",
+    "carRentalOutstation": "Car Rental (Outstation)",
+    "busRentalVolvo": "Bus Rental (Volvo AC)",
+    "tempoMaharaja": "Tempo Traveller (Maharaja)",
+    "airportExpress": "Airport Express Pickup",
+    "corporateMobility": "Corporate Mobility",
+    "weddingConvoy": "Wedding Convoy Fleet"
+  },
+  "destinations": {
+    "title": "Explore Popular Destinations",
+    "subtitle": "Discover carefully curated holiday packages covering the most beautiful locations in India.",
+    "viewAll": "View All",
+    "categories": {
+      "goa": "Goa",
+      "maharashtra": "Maharashtra",
+      "kashmir": "Kashmir",
+      "himachal": "Himachal",
+      "kerala": "Kerala",
+      "rajasthan": "Rajasthan"
+    },
+    "items": {
+      "goaBeach": {
+        "name": "Goa Beach Holiday",
+        "duration": "4 Nights / 5 Days",
+        "vehicle": "AC Sedan / SUV",
+        "hotel": "4 Star Resort",
+        "inclusions": [
+          "Airport Transfers",
+          "North Goa Tour",
+          "South Goa Tour",
+          "Breakfast Included"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival in Goa",
+            "desc": "Check-in and relax at beach"
+          },
+          {
+            "title": "North Goa",
+            "desc": "Fort Aguada, Baga Beach"
+          },
+          {
+            "title": "South Goa",
+            "desc": "Colva Beach, Mangueshi Temple"
+          },
+          {
+            "title": "Leisure Day",
+            "desc": "Shopping and local exploration"
+          },
+          {
+            "title": "Departure",
+            "desc": "Drop to airport/station"
+          }
+        ]
+      },
+      "mahabaleshwar": {
+        "name": "Mahabaleshwar Weekend",
+        "duration": "2 Nights / 3 Days",
+        "vehicle": "AC Innova",
+        "hotel": "3 Star Hotel",
+        "inclusions": [
+          "Pune/Mumbai Pickup",
+          "Pratapgarh Fort",
+          "Panchgani Tour",
+          "Mapro Garden Visit"
+        ],
+        "itinerary": [
+          {
+            "title": "Journey & Panchgani",
+            "desc": "Table Land, Parsi Point"
+          },
+          {
+            "title": "Mahabaleshwar Sightseeing",
+            "desc": "Arthur's Seat, Venna Lake"
+          },
+          {
+            "title": "Pratapgarh & Return",
+            "desc": "Fort visit and drop back"
+          }
+        ]
+      },
+      "shirdi": {
+        "name": "Shirdi Darshan",
+        "duration": "1 Night / 2 Days",
+        "vehicle": "AC Sedan",
+        "hotel": "3 Star Hotel",
+        "inclusions": [
+          "Home Pickup/Drop",
+          "VIP Darshan Pass assist",
+          "Shani Shingnapur",
+          "Toll & Parking"
+        ],
+        "itinerary": [
+          {
+            "title": "Travel to Shirdi",
+            "desc": "Arrival and evening Darshan"
+          },
+          {
+            "title": "Shani Shingnapur",
+            "desc": "Visit temple and return journey"
+          }
+        ]
+      },
+      "nashik": {
+        "name": "Nashik Wine & Divine",
+        "duration": "1 Night / 2 Days",
+        "vehicle": "AC Sedan",
+        "hotel": "3 Star Hotel",
+        "inclusions": [
+          "Sula Vineyards Tour",
+          "Trimbakeshwar Darshan",
+          "Panchavati Tour",
+          "Breakfast"
+        ],
+        "itinerary": [
+          {
+            "title": "Trimbakeshwar & Panchavati",
+            "desc": "Temple visits"
+          },
+          {
+            "title": "Vineyard Tour",
+            "desc": "Sula visit and return"
+          }
+        ]
+      },
+      "lonavala": {
+        "name": "Lonavala Getaway",
+        "duration": "1 Night / 2 Days",
+        "vehicle": "AC Sedan",
+        "hotel": "3 Star Resort",
+        "inclusions": [
+          "Tiger Point",
+          "Bhushi Dam",
+          "Karla Caves",
+          "Breakfast"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival & Sightseeing",
+            "desc": "Lonavala local tour"
+          },
+          {
+            "title": "Khandala Tour",
+            "desc": "Rajmachi Point and return"
+          }
+        ]
+      },
+      "matheran": {
+        "name": "Matheran Eco-Tour",
+        "duration": "1 Night / 2 Days",
+        "vehicle": "AC Sedan",
+        "hotel": "3 Star Resort",
+        "inclusions": [
+          "Dasturi Naka Drop",
+          "Charlotte Lake",
+          "Panorama Point",
+          "Breakfast"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival at Matheran",
+            "desc": "Trek to points"
+          },
+          {
+            "title": "More Sightseeing",
+            "desc": "Louisa Point and return"
+          }
+        ]
+      },
+      "kashmir": {
+        "name": "Kashmir Paradise",
+        "duration": "5 Nights / 6 Days",
+        "vehicle": "AC Innova/Tavera",
+        "hotel": "4 Star Hotel/Houseboat",
+        "inclusions": [
+          "Srinagar Shikara Ride",
+          "Gulmarg Gondola",
+          "Pahalgam Tour",
+          "Breakfast & Dinner"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival in Srinagar",
+            "desc": "Houseboat stay and Shikara ride"
+          },
+          {
+            "title": "Sonamarg Excursion",
+            "desc": "Meadow of Gold visit"
+          },
+          {
+            "title": "Gulmarg Tour",
+            "desc": "Gondola ride and snow activities"
+          },
+          {
+            "title": "Pahalgam Journey",
+            "desc": "Valley of Shepherds"
+          },
+          {
+            "title": "Srinagar Local",
+            "desc": "Mughal Gardens visit"
+          },
+          {
+            "title": "Departure",
+            "desc": "Airport drop"
+          }
+        ]
+      },
+      "manali": {
+        "name": "Manali Snow Adventure",
+        "duration": "4 Nights / 5 Days",
+        "vehicle": "AC SUV",
+        "hotel": "3 Star Hotel",
+        "inclusions": [
+          "Rohtang Pass/Solang",
+          "Kullu Valley",
+          "Hadimba Temple",
+          "Breakfast & Dinner"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival in Manali",
+            "desc": "Check-in and local market"
+          },
+          {
+            "title": "Local Sightseeing",
+            "desc": "Hadimba Temple, Vashisht"
+          },
+          {
+            "title": "Solang Valley",
+            "desc": "Snow activities"
+          },
+          {
+            "title": "Kullu Trip",
+            "desc": "River rafting and shawls"
+          },
+          {
+            "title": "Departure",
+            "desc": "Return journey"
+          }
+        ]
+      },
+      "kerala": {
+        "name": "Kerala Backwaters",
+        "duration": "4 Nights / 5 Days",
+        "vehicle": "AC Sedan",
+        "hotel": "4 Star Resort/Houseboat",
+        "inclusions": [
+          "Munnar Tea Gardens",
+          "Alleppey Houseboat",
+          "Cochin Tour",
+          "Breakfast"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival in Cochin",
+            "desc": "Transfer to Munnar"
+          },
+          {
+            "title": "Munnar Sightseeing",
+            "desc": "Tea gardens and Mattupetty Dam"
+          },
+          {
+            "title": "Thekkady",
+            "desc": "Periyar Wildlife Sanctuary"
+          },
+          {
+            "title": "Alleppey",
+            "desc": "Houseboat stay"
+          },
+          {
+            "title": "Departure",
+            "desc": "Drop at Cochin airport"
+          }
+        ]
+      },
+      "rajasthan": {
+        "name": "Rajasthan Royal Tour",
+        "duration": "5 Nights / 6 Days",
+        "vehicle": "AC Innova",
+        "hotel": "Heritage Hotels",
+        "inclusions": [
+          "Jaipur Sightseeing",
+          "Udaipur Lakes",
+          "Jodhpur Fort",
+          "Breakfast"
+        ],
+        "itinerary": [
+          {
+            "title": "Arrival in Jaipur",
+            "desc": "Check-in and Chokhi Dhani"
+          },
+          {
+            "title": "Jaipur Sightseeing",
+            "desc": "Amer Fort, Hawa Mahal"
+          },
+          {
+            "title": "Jodhpur Journey",
+            "desc": "Travel to Blue City"
+          },
+          {
+            "title": "Jodhpur Sightseeing",
+            "desc": "Mehrangarh Fort"
+          },
+          {
+            "title": "Udaipur Transfer",
+            "desc": "Arrival at Lake City"
+          },
+          {
+            "title": "Departure",
+            "desc": "Udaipur airport drop"
+          }
+        ]
+      }
+    },
+    "inclusions": "Holiday Package Inclusions",
+    "transport": "Transport Included",
+    "hotel": "Hotel Included",
+    "meals": "Meals Included",
+    "sightseeing": "Sightseeing Included",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "perPerson": "Per Person",
+    "india": "India",
+    "selectStateRegion": "Select State/Region",
+    "tripDuration": "Trip Duration",
+    "costBudgetRange": "Cost / Budget Range",
+    "durations": {
+      "all": "All",
+      "2days": "2 Days",
+      "3days": "3 Days",
+      "5days": "5 Days",
+      "6days": "6 Days"
+    },
+    "budgets": {
+      "all": "All",
+      "under10k": "Under ₹10,000",
+      "10k25k": "₹10k–₹25k",
+      "25k50k": "₹25k–₹50k",
+      "luxury": "Luxury"
+    }
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "subtitle": "Reliable Vehicles for Every Journey",
+    "viewAll": "View All",
+    "amenities": {
+      "ac": "Air Conditioned",
+      "gps": "GPS Tracking",
+      "driver": "Professional Driver",
+      "music": "Music System",
+      "charging": "Charging Ports"
+    },
+    "items": {
+      "swiftDzire": {
+        "name": "Swift Dzire",
+        "subName": "Or Similar Sedan",
+        "category": "Sedan",
+        "description": "Comfortable and economical for small families and intercity drops."
+      },
+      "marutiErtiga": {
+        "name": "Maruti Ertiga",
+        "subName": "Or Similar MUV",
+        "category": "SUV/MUV",
+        "description": "Spacious MUV perfect for family vacations with extra luggage space."
+      },
+      "innovaCrysta": {
+        "name": "Innova Crysta",
+        "subName": "Premium MPV",
+        "category": "Premium",
+        "description": "Ultimate luxury and comfort for long road trips and corporate travel."
+      },
+      "forceUrbania": {
+        "name": "Force Urbania",
+        "subName": "Luxury Van",
+        "category": "Traveller",
+        "description": "Modern, spacious van with business class seating for premium group travel."
+      },
+      "tempo12": {
+        "name": "12 Seater Tempo",
+        "subName": "Maharaja Seats",
+        "category": "Traveller",
+        "description": "1x1 Maharaja luxury pushback seats for maximum comfort on tours."
+      },
+      "tempo17": {
+        "name": "17 Seater Tempo",
+        "subName": "2x1 Pushback Seats",
+        "category": "Traveller",
+        "description": "Ideal for medium groups, extended families, and outstation trips."
+      },
+      "tempo26": {
+        "name": "26 Seater Tempo",
+        "subName": "2x2 Recliner Seats",
+        "category": "Traveller",
+        "description": "Spacious tempo traveller for large group trips and corporate outings."
+      },
+      "miniBus": {
+        "name": "32 Seater Mini Bus",
+        "subName": "AC Coach",
+        "category": "Bus",
+        "description": "Comfortable air-conditioned mini bus for school trips and events."
+      },
+      "luxuryCoach": {
+        "name": "45 Seater Coach",
+        "subName": "Luxury Bus",
+        "category": "Bus",
+        "description": "Premium air-suspension coach for long-distance group tours."
+      },
+      "volvoAC": {
+        "name": "56 Seater Volvo",
+        "subName": "Multi-Axle AC",
+        "category": "Bus",
+        "description": "The ultimate luxury coach experience with modern amenities and smooth ride."
+      }
+    },
+    "njExecutiveClass": "NJ Executive Class Fleet",
+    "verifiedFleet": "Verified NJ Fleet",
+    "capacity": "Capacity",
+    "seats": "Seats",
+    "luggageLimit": "Luggage Limit",
+    "acCabin": "AC Cabin",
+    "fullyAc": "Yes (Fully AC)",
+    "driverType": "Driver Type",
+    "professionalDl": "Professional DL",
+    "comfortAmenities": "Comfort Amenities",
+    "commercialPermits": "Commercial Tourist Permits",
+    "comprehensiveInsurance": "Comprehensive Vehicle Insurance",
+    "billingRates": "Outstation Billing Rates",
+    "outstationRate": "Outstation Rate",
+    "minDailyKm": "Min. Daily KM",
+    "driverAllowance": "Driver Allowance",
+    "startingBaseFare": "Starting Base Fare",
+    "bookThisVehicle": "Book This Vehicle",
+    "filters": {
+      "all": "All Vehicles",
+      "sedan": "Sedan",
+      "suv": "SUV",
+      "innova": "Innova Crysta",
+      "tempo": "Tempo Traveller",
+      "minibus": "Mini Bus",
+      "luxury": "Luxury Coach"
+    },
+    "km": "km",
+    "rating": "Rating",
+    "bags": "bags",
+    "day": "day"
+  },
+  "stats": {
+    "happyCustomers": "Happy\nCustomers",
+    "vehicles": "Vehicles",
+    "tripsCompleted": "Trips\nCompleted",
+    "citiesCovered": "Cities\nCovered"
+  },
+  "drawer": {
+    "guestUser": "Guest User",
+    "loginToManage": "Login to manage your bookings.",
+    "member": "Member"
+  },
+  "footer": {
+    "company": "NJ Tours (National Journey)",
+    "tagline": "Your Journey, Our Responsibility.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All Rights Reserved.",
+    "links": {
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy",
+      "cancel": "Cancellation Policy"
+    }
+  },
+  "validation": {
+    "required": "Required Field",
+    "invalidEmail": "Invalid Email",
+    "invalidMobile": "Invalid Mobile Number",
+    "passwordRequired": "Password Required",
+    "bookingSuccess": "Booking Successful",
+    "somethingWrong": "Something Went Wrong"
+  },
+  "gallery": {
+    "title": "Our Travel Gallery",
+    "categories": {
+      "vehicles": "Vehicles",
+      "destinations": "Destinations"
+    },
+    "items": {
+      "volvo": {
+        "title": "Volvo Multi-Axle"
+      },
+      "kashmir": {
+        "title": "Kashmir Valley"
+      }
+    }
+  },
+  "testimonials": {
+    "items": {
+      "rajesh": {
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, India",
+        "trip": "Pune to Goa Trip",
+        "date": "August 2026",
+        "comment": "Excellent service! The driver was very professional and the Innova was brand new. Highly recommended for family trips."
+      },
+      "anand": {
+        "name": "Anand Deshmukh",
+        "location": "Pune, India",
+        "trip": "Mahabaleshwar Tour",
+        "date": "July 2026",
+        "comment": "Booked a Tempo Traveller for our extended family. Seamless booking experience and transparent pricing without any hidden charges."
+      }
+    },
+    "verifiedFeedback": "Verified Customer Feedback",
+    "basedOnReviews": "Based on 2,450+ Google Reviews",
+    "title": "Trusted by 50,000+ Travelers",
+    "subtitle": "Read authentic reviews from families, corporate delegates, and holiday travelers across India.",
+    "verifiedProfile": "Verified Business Profile",
+    "googleVerified": "Google Verified"
+  },
+  "about": {
+    "whyChooseUsTitle": "Why Choose NJ Tours?",
+    "whyChooseUsSubtitle": "Discover what sets National Journey apart as India's premier transport service",
+    "features": {
+      "professionalDrivers": {
+        "title": "Professional Drivers",
+        "desc": "Commercial licensed & background verified chauffeurs."
+      },
+      "gpsEnabled": {
+        "title": "GPS Enabled Vehicles",
+        "desc": "Real-time live telematics tracking shared with family."
+      },
+      "sanitizedFleet": {
+        "title": "Sanitized Fleet",
+        "desc": "Clean, vacuumed, and disinfected vehicle cabins."
+      },
+      "affordablePricing": {
+        "title": "Affordable Pricing",
+        "desc": "Competitive per-km rates with zero hidden toll fees."
+      },
+      "customerSupport": {
+        "title": "24×7 Customer Support",
+        "desc": "Dedicated trip concierge helpline available round-the-clock."
+      },
+      "onTimePickup": {
+        "title": "On-Time Pickup",
+        "desc": "Punctuality guarantee for airport and intercity trips."
+      },
+      "experiencedTeam": {
+        "title": "Experienced Team",
+        "desc": "Over 15+ years of mobility management expertise."
+      },
+      "secureBooking": {
+        "title": "Secure Booking",
+        "desc": "Encrypted digital payments with instant GST receipts."
+      },
+      "drivers": {
+        "title": "Professional & Uniformed Drivers",
+        "desc": "Police verified, highly trained chauffeurs fluent in local languages and route expertise for stress-free travel.",
+        "badge": "Verified 100%"
+      },
+      "support": {
+        "title": "24×7 Dedicated Support",
+        "desc": "Round the clock phone & WhatsApp assistance for route queries, booking modifications, or emergency dispatch.",
+        "badge": "Always Active"
+      },
+      "gps": {
+        "title": "Real-time Live GPS Tracking",
+        "desc": "Every vehicle is equipped with live satellite GPS tracking & SOS emergency button for ultimate peace of mind.",
+        "badge": "Smart Tech"
+      },
+      "pricing": {
+        "title": "Affordable & Transparent Pricing",
+        "desc": "No hidden charges or unexpected toll surcharges. Clear itemized bill provided before trip start.",
+        "badge": "Best Rates"
+      },
+      "fleet": {
+        "title": "Safe & Sanitized Fleet",
+        "desc": "Deep sanitized cabs, speed governors, seatbelts for all passengers, and regular multi-point safety audits.",
+        "badge": "Safety First"
+      },
+      "punctual": {
+        "title": "Trusted & Punctual Service",
+        "desc": "99.8% on-time pickup record across 150+ cities in India with guaranteed vehicle replacement on backup.",
+        "badge": "On-Time Guarantee"
+      }
+    },
+    "certifications": {
+      "title": "Accreditations & Trust",
+      "subtitle": "Recognized and certified by leading transport and tourism authorities",
+      "items": {
+        "gst": {
+          "title": "GST Registered Entity",
+          "desc": "100% compliant digital GST invoices provided."
+        },
+        "permit": {
+          "title": "Commercial Transport Permit",
+          "desc": "All India Tourist Permit (AITP) authorized fleet."
+        },
+        "drivers": {
+          "title": "Double Verified Drivers",
+          "desc": "Commercial DL, police background check & medical test."
+        },
+        "registered": {
+          "title": "Government Registered",
+          "desc": "Officially registered transport mobility company."
+        },
+        "insured": {
+          "title": "Fully Insured Vehicles",
+          "desc": "Comprehensive commercial passenger insurance policy."
+        }
+      },
+      "badge": "Certified & Verified"
+    },
+    "team": {
+      "title": "Meet Our Leadership Team",
+      "subtitle": "The passionate professionals behind National Journey’s commitment to excellence",
+      "members": {
+        "nikhil": {
+          "name": "Nikhil Jadhav",
+          "role": "Founder & Managing Director",
+          "desc": "Visionary entrepreneur with over 15 years of leadership in transport infrastructure and tourism operations."
+        },
+        "rajesh": {
+          "name": "Rajesh Kulkarni",
+          "role": "Operations Manager",
+          "desc": "Oversees intercity route scheduling, dispatch logistics, and driver performance compliance."
+        },
+        "priya": {
+          "name": "Priya Sharma",
+          "role": "Fleet Manager",
+          "desc": "Manages vehicle maintenance audits, telematics hardware, and luxury coach safety certifications."
+        },
+        "amitabh": {
+          "name": "Amitabh Deshmukh",
+          "role": "Customer Support Lead",
+          "desc": "Heads our 24x7 trip concierge team ensuring stress-free resolution for every passenger."
+        }
+      }
+    },
+    "whyChooseUsAdvantage": "The National Journey Advantage",
+    "standardProtocol": "Standard Quality Protocol",
+    "gpsDemo": {
+      "badge": "LIVE VEHICLE GPS TELEMATICS DEMO",
+      "title": "Track Your Cab & Driver Location Real-Time",
+      "desc": "As soon as your booking is confirmed, receive a live SMS/WhatsApp tracking link to monitor your vehicle's speed, route, ETA, and driver phone details.",
+      "driverStatus": "Driver Status:",
+      "onDuty": "On Duty (Verified)",
+      "currentSpeed": "Current Speed:",
+      "safeLimit": "62 km/h (Safe Limit)",
+      "tripRoute": "Trip: Mumbai ➔ Pune Express Highway",
+      "vehicleInfo": "MH 12 AB 9822 • Innova Crysta",
+      "eta": "ETA: 42 Mins",
+      "mumbai": "Mumbai (Bandra)",
+      "lonavala": "Lonavala Ghat",
+      "pune": "Pune (Swargate)"
+    },
+    "title": "About NJ Tours & Travels",
+    "subtitle": "Your trusted travel partner for premium mobility solutions, bus rentals, and customized tour packages across India.",
+    "ourStory": "Our Story",
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide our commitment to excellence and customer satisfaction."
+    },
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "timeline": {
+      "title": "Our Growth Journey",
+      "subtitle": "Milestones achieved through trust, dedication, and service excellence over the years."
+    }
+  },
+  "contact": {
+    "badge": "24x7 Helpdesk & Inquiries",
+    "title": "Get In Touch",
+    "subtitle": "We are available round the clock. Let us help you plan your next perfect journey.",
+    "helplines": {
+      "title": "Phone Helplines",
+      "support": "(24x7 Support)"
+    },
+    "email": {
+      "title": "Email Address"
+    },
+    "hq": {
+      "title": "Headquarters"
+    },
+    "form": {
+      "title": "Send Quick Inquiry",
+      "name": "Your Full Name *",
+      "namePh": "e.g. Ramesh Kumar",
+      "phone": "Mobile Number *",
+      "emailLabel": "Email Address",
+      "tripType": "Trip / Service Required",
+      "tripOptions": {
+        "outstation": "Outstation Car / SUV Rental",
+        "tempo": "Tempo Traveller Group Trip",
+        "bus": "Luxury Volvo Bus Rental",
+        "package": "Holiday Tour Package",
+        "corp": "Corporate Shuttle / Wedding Convoy"
+      },
+      "message": "Trip Details / Special Request",
+      "messagePh": "Mention pickup date, route details, or passenger count...",
+      "submit": "SUBMIT INQUIRY NOW"
+    },
+    "success": {
+      "title": "Inquiry Received Successfully!",
+      "desc1": "Thank you",
+      "desc2": ". Our tour manager will call you back on",
+      "desc3": "within 15 minutes with a custom quote.",
+      "button": "Send Another Inquiry"
+    }
+  },
+  "faq": {
+    "badge": "Frequent Questions",
+    "title": "How can we help?",
+    "subtitle": "Answers to common queries about our transport services",
+    "items": {
+      "q1": {
+        "q": "Are toll taxes, state driver allowances, and parking fees included in the fare?",
+        "a": "Our base fare estimates include the vehicle per-km charge and driver day allowance. Toll taxes, state border entry permits, and airport parking fees are payable directly at official booths or itemized transparently in your final bill."
+      },
+      "q2": {
+        "q": "How far in advance should I book a Tempo Traveller or Volvo Coach?",
+        "a": "For weekend family trips and peak wedding season, we recommend booking 3 to 7 days prior. However, emergency outstation cab bookings can be fulfilled within 60 minutes."
+      },
+      "q3": {
+        "q": "Are your drivers police-verified and safe for solo women & family travel?",
+        "a": "Yes! 100% of our chauffeurs undergo mandatory background verification, possess valid commercial licenses, and wear clean uniforms. All cabs feature live GPS satellite tracking."
+      },
+      "q4": {
+        "q": "What happens if a vehicle breaks down during an outstation trip?",
+        "a": "National Journey guarantees 100% trip continuity. In the rare event of mechanical issues, a replacement cab of identical or higher category is dispatched within 45 to 60 minutes."
+      }
+    }
+  },
+  "auth": {
+    "marketing": {
+      "desc": "Experience seamless outstation cab rentals, luxury Tempo Travellers, and holiday tours backed by 24x7 live GPS telematics.",
+      "secureDesc": "Verified drivers & zero hidden toll fees",
+      "supportDesc": "Dedicated trip manager helpline",
+      "trustedDesc": "50,000+ completed journeys across 150+ cities"
+    },
+    "createNjAccount": "Create NJ Account",
+    "welcomeBackToNj": "Welcome Back to NJ Tours",
+    "registerAccount": "REGISTER ACCOUNT",
+    "loginToDashboard": "LOGIN TO DASHBOARD",
+    "welcomeBack": "Welcome Back",
+    "loginSubtitle": "Sign in to access your account & manage bookings",
+    "demoRoles": "Quick Demo Roles",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "signingIn": "Signing In...",
+    "signIn": "Sign In",
+    "dontHaveAccount": "Don't have an account?",
+    "registerLink": "Create One Now",
+    "createAccount": "Create Account",
+    "registerSubtitle": "Join NJ Tours for seamless travel bookings & exclusive offers",
+    "fullName": "Full Name",
+    "mobileNumber": "Mobile Number",
+    "confirmPassword": "Confirm Password",
+    "registering": "Registering...",
+    "registerNow": "Register Now",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Sign In Here",
+    "returnToHome": "Back to Home",
+    "continueGoogle": "Continue with Google",
+    "continuePhone": "Continue with Phone Number",
+    "backToHome": "Back to Home",
+    "logout": "Logout",
+    "exit": "Exit"
+  },
+  "appPromo": {
+    "badge": "Next-Gen Mobile Mobility",
+    "title1": "Download the ",
+    "title2": " App",
+    "desc": "Book outstation cabs, track driver location in real-time, generate digital GST invoices, and get instant 24x7 SOS emergency support — all from your phone.",
+    "features": {
+      "tracking": {
+        "title": "Live Satellite Tracking",
+        "desc": "Share trip ETA with family"
+      },
+      "notifications": {
+        "title": "Instant Notifications",
+        "desc": "Driver & cab arrival updates"
+      },
+      "sos": {
+        "title": "SOS Emergency Alert",
+        "desc": "Direct 24x7 control room hotline"
+      },
+      "gst": {
+        "title": "Digital GST Invoices",
+        "desc": "Instant PDF download after trip"
+      }
+    },
+    "store": {
+      "getItOn": "GET IT ON",
+      "downloadOn": "DOWNLOAD ON THE",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "phoneUi": {
+      "live": "LIVE",
+      "activeBooking": "Active Booking #NJ892",
+      "route": "Mumbai ➔ Mahabaleshwar",
+      "driverAssigned": "MH 04 ET 4020 • Driver Assigned",
+      "pickupTime": "Pickup Time",
+      "timeToday": "07:30 AM Today",
+      "estFare": "Estimated Fare",
+      "trackingActive": "📍 Live Tracking Active",
+      "cancelSos": "CANCEL / SOS SUPPORT"
+    }
+  },
+  "modals": {
+    "totalEstimatedPayable": "Total Estimated Payable:",
+    "exactPickupAddress": "Exact Pickup Address",
+    "bookingConfirmed": "Booking Confirmed!",
+    "passenger": "Passenger:",
+    "totalPayable": "Total Payable:",
+    "paymentStatus": "Payment Status:",
+    "payAtTripStart": "PAY AT TRIP START",
+    "inquiryReceived": "Inquiry Received!",
+    "inquiryThanks": "Thank you for choosing NJ Tours. Our holiday planner will contact you within 15 minutes to customize your itinerary.",
+    "packageName": "Package Name:",
+    "departureDate": "Departure Date:",
+    "travelerName": "Traveler Name:",
+    "premiumInclusions": "Premium Inclusions",
+    "stay": "Stay:",
+    "vehicle": "Vehicle:",
+    "meals": "Meals:",
+    "packageExcludes": "Package Excludes:",
+    "planMyJourney": "Plan My Journey",
+    "freeQuoteDesc": "Free instant custom holiday quote",
+    "yourName": "Your Name",
+    "travelDate": "Travel Date",
+    "getFreeQuote": "Get Free Custom Quote",
+    "startingPackagePrice": "Starting package price",
+    "fullName": "Full Name",
+    "mobileOrEmail": "Mobile Number or Email",
+    "password": "Password",
+    "dayWiseDetailedItinerary": "Day-Wise Detailed Itinerary",
+    "day": "Day",
+    "privateAc": "Private AC",
+    "mealsIncludedDesc": "Breakfast & Buffet Dinners included",
+    "flightsTrain": "Flights / Train tickets (extra cost)",
+    "monumentsGuides": "Personal monument entry tickets & guides",
+    "laundryTips": "Laundry, tips & alcoholic drinks",
+    "driverAllowanceBata": "Driver Day Allowance & Bata:",
+    "gstTax": "GST Tax (5%):",
+    "confirmGetDetails": "CONFIRM & GET DRIVER DETAILS",
+    "bookingRef": "Booking Ref:",
+    "detailsSmsWhatsApp": "Vehicle and driver details will be sent via SMS & WhatsApp to {phone} 2 hours prior to pickup.",
+    "doneClose": "Done & Close",
+    "tollTaxesParking": "Toll taxes and parking charges payable directly at booths."
+  },
+  "userMenu": {
+    "dashboard": "Dashboard",
+    "myBookings": "My Bookings",
+    "myProfile": "My Profile",
+    "logout": "Logout Account",
+    "portal": "PORTAL"
+  },
+  "dashboard": {
+    "totalBookings": "Total Bookings",
+    "monthlyRevenue": "Monthly Revenue",
+    "activeFleet": "Active Fleet",
+    "onDutyDrivers": "On-Duty Drivers",
+    "overview": "System Overview & Analytics",
+    "customer": "Customer Portal",
+    "recentBookings": "Recent Bookings",
+    "bookingId": "Booking ID",
+    "route": "Route",
+    "vehicle": "Vehicle",
+    "date": "Date",
+    "status": "Status",
+    "fare": "Fare",
+    "driver": "Driver Console",
+    "todaysTrips": "Today's Assigned Trips",
+    "monthlyEarnings": "Monthly Earnings",
+    "driverRating": "Driver Rating",
+    "activeDuty": "On Active Duty",
+    "startNavigation": "Start GPS Navigation",
+    "callPassenger": "Call Passenger"
+  },
+  "dash": {
+    "telematics": "Vehicle Telematics & Status",
+    "bookingsMgmt": "Bookings Management",
+    "bookingRef": "Booking Ref",
+    "customer": "Customer",
+    "route": "Route",
+    "vehicleCat": "Vehicle Category",
+    "fare": "Fare",
+    "status": "Status",
+    "action": "Actions",
+    "reportsDesc": "Detailed analytics and financial reports",
+    "companyName": "Company Name",
+    "userId": "User ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "totalTrips": "Total Trips",
+    "fleetControl": "Fleet Control & Monitoring"
+  },
+  "admin": {
+    "controlCenter": "Control Center",
+    "systemAdminPortal": "System Admin Portal",
+    "superadminAccount": "SUPERADMIN ACCOUNT",
+    "exitHq": "Exit HQ",
+    "adminNav": "Admin Navigation",
+    "encryptedSession": "Encrypted Session",
+    "version": "Version v2.4.0 (Enterprise)"
+  },
+  "driver": {
+    "portalTitle": "DRIVER PORTAL",
+    "telematicsActive": "GPS TELEMATICS ACTIVE",
+    "partner": "Driver Partner",
+    "controls": "Driver Controls",
+    "dutyStatus": "Duty Status: ON DUTY",
+    "dutyManager": "Duty Manager: Bandra Control Room"
+  }
+}
