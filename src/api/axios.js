@@ -1,9 +1,17 @@
 import { localStorageHelper } from '../utils/localStorage';
 
-// Determines backend URL based on host env
-const BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://localhost:8000/api/v1'
-  : '/api/v1';
+// Determines backend URL based on host env and optional VITE_API_BASE_URL
+const getBaseUrl = () => {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL;
+  }
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return 'http://localhost:8000/api/v1';
+  }
+  return '/api/v1';
+};
+
+const BASE_URL = getBaseUrl();
 
 class RealAxiosClient {
   constructor() {

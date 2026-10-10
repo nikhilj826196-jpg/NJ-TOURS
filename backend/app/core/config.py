@@ -15,6 +15,17 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     DATABASE_URL: str = "mysql+aiomysql://root:nikhil1234@localhost:3306/nj_tours"
 
+    # Discrete MySQL Credentials (Alternative to DATABASE_URL, handles special characters)
+    MYSQL_HOST: str | None = None
+    MYSQL_PORT: int = 3306
+    MYSQL_USER: str | None = None
+    MYSQL_PASSWORD: str | None = None
+    MYSQL_DATABASE: str | None = None
+    MYSQL_SSL: bool = False
+
+    # CORS Configuration (comma-separated origins or "*")
+    CORS_ORIGINS: str = ""
+
     # Razorpay Configurations
     RAZORPAY_KEY_ID: str = ""
     RAZORPAY_KEY_SECRET: str = ""
@@ -30,6 +41,19 @@ class Settings(BaseSettings):
     USE_CREDENTIALS: bool = True
     VALIDATE_CERTS: bool = True
 
+    @property
+    def effective_database_url(self) -> str:
+        """
+        Returns DATABASE_URL, or constructs an async MySQL URL from discrete
+        environment variables (safely URL-encoding user credentials).
+        """
+        if self.MYSQL_HOST and self.MYSQL_USER and self.MYSQL_DATABASE:
+            from urllib.parse import quote_plus
+            user = quote_plus(self.MYSQL_USER)
+            pwd = quote_plus(self.MYSQL_PASSWORD or "")
+            return f"mysql+aiomysql://{user}:{pwd}@{self.MYSQL_HOST}:{self.MYSQL_PORT}/{self.MYSQL_DATABASE}"
+        return self.DATABASE_URL
+
     model_config = SettingsConfigDict(
         env_file=str(ENV_FILE_PATH),
         env_file_encoding="utf-8",
@@ -39,4 +63,5 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
 

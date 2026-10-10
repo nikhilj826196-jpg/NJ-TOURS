@@ -7,10 +7,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node dependencies and build artifacts
 node_modules
 dist
 dist-ssr
 *.local
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+backend/venv/
+ENV/
+env/
+
+# Local databases and uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/nj_tours.db
+uploads/
+backend/uploads/
+
+# Vercel deployment artifacts
+.vercel
 
 # Editor directories and files
 .vscode/*

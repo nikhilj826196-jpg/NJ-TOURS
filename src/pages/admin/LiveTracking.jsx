@@ -17,8 +17,9 @@ export default function LiveTracking() {
     // WebSocket connection initialization for admin live tracking endpoint
     let ws;
     try {
-      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-      const wsUrl = `${protocol}//${window.location.hostname}:8000/ws/location/admin`;
+      const defaultWsHost = `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.hostname}:8000`;
+      const wsBase = import.meta.env.VITE_WS_URL || defaultWsHost;
+      const wsUrl = wsBase.endsWith('/ws/location/admin') ? wsBase : `${wsBase.replace(/\/$/, '')}/ws/location/admin`;
       ws = new WebSocket(wsUrl);
 
       ws.onopen = () => {

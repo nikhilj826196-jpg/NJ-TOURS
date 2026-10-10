@@ -16,7 +16,7 @@ from app.api.v1.router import api_router
 from app.core.config import settings
 from app.database.connection import Base, engine
 # Import models to ensure they are registered with Base metadata
-from app.models.user import User  # noqa: F401
+import app.models  # noqa: F401
 from app.websocket.location_socket import manager
 
 
@@ -77,10 +77,29 @@ app = FastAPI(
 Instrumentator().instrument(app).expose(app)
 
 # CORS Middleware Configuration
+configured_origins = []
+if hasattr(settings, "CORS_ORIGINS") and settings.CORS_ORIGINS:
+    configured_origins = [o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()]
+
+default_origins = [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5174",
+    "http://localhost:3000",
+]
+
+effective_origins = list(set(default_origins + configured_origins))
+allow_credentials = True
+
+if len(configured_origins) == 1 and configured_origins[0] == "*":
+    effective_origins = ["*"]
+    allow_credentials = False
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=effective_origins,
+    allow_credentials=allow_credentials,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -119,9 +138,12 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
     )
 
 
-# Create uploads directory if not exists
-Path("uploads").mkdir(exist_ok=True)
-app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+# Create uploads directory if not exists (safe on serverless/read-only runtimes)
+try:
+    Path("uploads").mkdir(parents=True, exist_ok=True)
+    app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+except Exception as e:
+    print(f"[Uploads Notice] Local uploads directory mounting skipped or read-only: {e}")
 
 # Include API V1 Router
 app.include_router(api_router, prefix=settings.API_V1_STR)
@@ -159,6 +181,7 @@ async def ws_location_admin(websocket: WebSocket):
 
 
 @app.get("/health", tags=["health"])
+@app.get("/api/health", tags=["health"])
 async def health_check():
     return {
         "status": "healthy",
